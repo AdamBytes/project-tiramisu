@@ -60,7 +60,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 
 ## About me
 
-I am transitioning from a decade of working in education as a teacher, digital transformation and education technology leadership into cybersecurity and AI governance. This lab is part of building the technical depth.
+I am transitioning from a decade of working in education as a teacher, digital transformationist and education technology leader into cybersecurity and AI governance. This lab is part of building the technical depth.
 
 You can find me at [LinkedIn.com] ([LinkedIn Profile])
 
