@@ -58,7 +58,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 | Headroom / system buffer | 5.0 GB |
 | **Total** | **16.0 GB** |
 
-##Network Architecture
+## Network Architecture
 
 | Bridge | Network | Role |
 |--------|---------|------|
