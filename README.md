@@ -42,7 +42,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 |-----------|--------|
 | Server | Old laptop — 16 logical cores, 16 GB RAM, NVMe SSD |
 | Networking | USB-C to RJ45 adapter (no built-in Ethernet) |
-| Internet | Rain 101 LTE router (CGNAT — no port forwarding possible) |
+| Internet | Domestic router (CGNAT — no port forwarding possible) |
 | Management | Desktop PC (Fedora 43) via Tailscale |
 | Attack surface | Laptop 2 (Parrot OS, LUKS encrypted) — future Red Team device |
 
@@ -57,6 +57,15 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 | n8n SOAR LXC | 2.0 GB |
 | Headroom / system buffer | 5.0 GB |
 | **Total** | **16.0 GB** |
+
+##Network Architecture
+
+| Bridge | Network | Role |
+|--------|---------|------|
+| vmbr0 | 192.168.0.0/24 | WAN - Domestic route, Proxmox Host Management | 
+| vmbr1 | 192.168.1.0/24 | Blue Team Lab - isolated, all security stack LXCs |
+| vmbr2 | 10.0.0.0/24 | Red Team / Attack - isolated, future offensive tooling| 
+
 
 ## About me
 
