@@ -43,7 +43,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 | Server | Old laptop — 16 logical cores, 16 GB RAM, NVMe SSD |
 | Networking | USB-C to RJ45 adapter (no built-in Ethernet) |
 | Internet | Rain 101 LTE router (CGNAT — no port forwarding possible) |
-| Management | Desktop PC (Windows 11) via Tailscale |
+| Management | Desktop PC (Fedora 43) via Tailscale |
 | Attack surface | Laptop 2 (Parrot OS, LUKS encrypted) — future Red Team device |
 
 ## RAM budget
