@@ -5,17 +5,17 @@ Planned playbook, configs and build documentation to keep the project aligned.
 
 ---
 
-Project tiramisu is a documented build of a defensive security lab that I have built at home - it stems from a bare metal idea to a functionting detection and response stack. It runs on an old laptop with 16GB of RAM and an LTE connection.
+Project tiramisu is a documented build of a defensive security lab that I have built at home - it stems from a bare metal idea to a functioning detection and response stack. It runs on an old laptop with 16GB of RAM and an LTE connection.
 
-The name comes from the Italian dessert: it's a single device that has many layers, each wiht a purpose and *tirami su*. This is translated as "pick me up".
+The name comes from the Italian dessert: it's a single device that has many layers, each with a purpose and *tirami su*. This is translated as "pick me up".
 
-The repository will contain the full technical playbook, configuration references and support material for the build. There is a companinion blog to go with the repository and that can be found at [Adam's Bytes](https://adambytes.github.io/lab.html). It walks through each phase as a narrative, including the failures and pain points.
+The repository will contain the full technical playbook, configuration references and support material for the build. There is a compananion blog to go with the repository and that can be found at [Adam's Bytes](https://adambytes.github.io/lab.html). It walks through each phase as a narrative, including the failures and pain points.
 
 ## What this project is
 
 It is a privacy-first Blue Team environment designed to run a firewall, a SIEM, a SOAR engine and visualisation layer on hardware that most people already own. Each tool was chosen because it can be understood and not just installed.
 
-It is serves to act as a resource for anyone who wants to build their own homelabe. 
+It is serves to act as a resource for anyone who wants to build their own homelab. 
 
 ## Why did I do this project?
 
@@ -34,7 +34,7 @@ I was stuck in tutorial-hell, doing labs and preparing for certifications and I 
 
 ## Why this stack and not Elk you ask?
 
-In my original research and idea, I was positioned the idea of using Elasticsearch, Logstash, Kibana, Shuffle SOAR and TheHive. Having looked at my technical constraints I realised that there needed to be a reavaluation of this process. I settled on this 'lean' stack as it delivers the same monitoring capability at half the cost of RAM. 
+In my original research and idea, I was positioned the idea of using Elasticsearch, Logstash, Kibana, Shuffle SOAR and TheHive. Having looked at my technical constraints I realised that there needed to be a re-evaluation of this process. I settled on this 'lean' stack as it delivers the same monitoring capability at half the cost of RAM. 
 
 ## Hardware
 
