@@ -20,7 +20,7 @@ The project has two intertwined goals. The first is practical: build a functioni
 | Router | Rain 101 LTE - gateway 192.168.0.1 - subnet 192.168.0.0/24 |
 | Role | Blue Team server (hypervisor, firewall, SIEM, SOAR, visualisation) |
 
-## 💡	Laptop as Server — Genuine Advantages
+#### 💡	Laptop as Server — Genuine Advantages
 The built-in battery acts as a primitive UPS: if mains power flickers, the lab stays up. The form factor is small enough to run permanently on a shelf. The thermal envelope is manageable. The notable constraint is the absence of a built-in Ethernet port — if replicating this setup on similar hardware, budget for a USB-C to RJ45 adapter before you begin.
 
 ## Supporting Devices
