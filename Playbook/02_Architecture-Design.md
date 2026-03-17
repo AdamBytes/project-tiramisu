@@ -32,11 +32,12 @@ The original plan specified pfSense. OPNsense was chosen instead for three reaso
 ## 2.4 The Case for a Lean Stack
 The original stack called for a full ELK deployment (Elasticsearch, Logstash, Kibana) alongside Shuffle SOAR and TheHive. Running all of this on 16 GB of RAM while also operating OPNsense and a management workstation would leave no meaningful headroom. A system at 90% RAM utilisation is not a stable security tool — it is a liability.
 
-Function	Original	Revised	RAM Impact
-Firewall	pfSense CE	OPNsense 26.1	Equivalent
-SIEM / Indexer	ELK Stack (3 separate services)	Wazuh All-in-One (Indexer built-in)	~4 GB saved
-SOAR	Shuffle (Docker-heavy multi-container)	n8n (single lightweight container)	~2 GB saved
-Log Visualisation	Kibana (standalone)	Grafana + Loki	~1 GB saved
+| Function |	Original |	Revised	| RAM Impact |
+| :--- | :--- | :--- | :--- |
+| Firewall | pfSense CE | OPNsense 26.1 |	Equivalent | 
+| SIEM / Indexer | ELK Stack (3 separate services) | 	Wazuh All-in-One (Indexer built-in) |	~4 GB saved |
+| SOAR | Shuffle (Docker-heavy multi-container) |	n8n (single lightweight container) |	~2 GB saved |
+| Log Visualisation | Kibana (standalone) |	Grafana + Loki |	~1 GB saved |
 
 #### 📘	What Wazuh All-in-One Replaces
 The Wazuh Indexer is a fork of OpenSearch, purpose-built for security data. The Wazuh Dashboard replaces Kibana. Running them as a single unified deployment via the official install script (wazuh-install.sh -a) delivers equivalent monitoring capability at roughly half the RAM cost of a separate ELK stack.
