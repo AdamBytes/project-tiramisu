@@ -53,5 +53,5 @@ The 5 GB headroom is intentional. This is the breathing room that prevents a mis
 | Wazuh All-in-One LXC | 	4.0 GB | Manager, Indexer, and Dashboard in one container (Phase 2) | 
 | n8n SOAR LXC | 	2.0 GB | SQLite backend — lightweight footprint (Phase 2) | 
 | Headroom / System Buffer | 	5.0 GB | Stability margin; future Grafana + Loki LXC (Phase 3)| 
-| TOTAL	16.0 GB | 	
+| TOTAL |	16.0 GB | 	
 
