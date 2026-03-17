@@ -6,13 +6,13 @@ What I have learnt is that good architecture is not about picking the most power
 
 | Layer | Component | Technology | Responsibility |
 | :--- | :--- | :--- | :--- |
-| 1 |	Physical Hardware | Old laptop + USB-C adapter | Raw compute, storage, physical connectivity | 
-| 2 | Hypervisor |Proxmox VE | Virtualisation, bridge networking, snapshots, remote console | 
-| 3 | Security Gateway |OPNsense VM | Firewalling, NAT, DHCP for lab LAN, future IDS/IPS, DNS |
-| 4 | Detection & Response |	Wazuh All-in-One (Phase 2) |	Log collection, indexing, alerting, compliance dashboards | 
-| 5	| Automation |	n8n SOAR (Phase 2) |	Automated incident response playbooks and notifications |
-| 6	| Visualisation | Grafana + Loki (Phase 2) |	Dashboard layer, log search, trend analysis
-| 7	| Remote Access |Tailscale mesh VPN |	Encrypted management tunnel and emergency backdoor |
+| 1 | Physical Hardware | Old laptop + USB-C adapter | Raw compute, storage, physical connectivity |
+| 2 | Hypervisor | Proxmox VE | Virtualisation, bridge networking, snapshots, remote console |
+| 3 | Security Gateway | OPNsense VM | Firewalling, NAT, DHCP for lab LAN, future IDS/IPS, DNS |
+| 4 | Detection & Response | Wazuh All-in-One (Phase 2) | Log collection, indexing, alerting, compliance dashboards |
+| 5 | Automation | n8n SOAR (Phase 2) | Automated incident response playbooks and notifications |
+| 6 | Visualisation | Grafana + Loki (Phase 2) | Dashboard layer, log search, trend analysis |
+| 7 | Remote Access | Tailscale mesh VPN | Encrypted management tunnel and emergency backdoor |
 
 ## 2.2 Virtual Network Bridges — The Critical Concept
 Proxmox creates virtual bridges (vmbr) that function as software-defined network switches. Understanding the distinction between the two bridges in this lab is fundamental to understanding how the lab's security model works.
