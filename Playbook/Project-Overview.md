@@ -25,7 +25,7 @@ The built-in battery acts as a primitive UPS: if mains power flickers, the lab s
 
 ## Supporting Devices
 
-| Device | OS | Daily Role |	Lab Role |
-| :--- | :--- |
-| Desktop |	Fedora |	Primary workstation | Lab management, SIEM dashboards, incident analysis |
-| Laptop 2 |	Parrot OS Home + LUKS | Mobile daily driver | Remote lab access; future Red Team platform |
+| Device | OS | Daily Role | Lab Role |
+| :--- | :--- | :--- | :--- |
+| Desktop | Fedora | Primary workstation | Lab management, SIEM dashboards, incident analysis |
+| Laptop 2 | Parrot OS Home + LUKS | Mobile daily driver | Remote lab access; future Red Team platform |
