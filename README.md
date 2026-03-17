@@ -36,7 +36,7 @@ I was stuck in tutorial-hell, doing labs and preparing for certifications and I 
 
 In my original research and idea, I was positioned the idea of using Elasticsearch, Logstash, Kibana, Shuffle SOAR and TheHive. Having looked at my technical constraints I realised that there needed to be a re-evaluation of this process. I settled on this 'lean' stack as it delivers the same monitoring capability at half the cost of RAM. 
 
-## Hardware
+### Hardware
 
 | Component | Detail |
 |-----------|--------|
@@ -46,7 +46,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 | Management | Desktop PC (Fedora 43) via Tailscale |
 | Attack surface | Laptop 2 (Parrot OS, LUKS encrypted) — future Red Team device |
 
-## RAM budget
+### RAM budget
 
 | Component | Allocation |
 |-----------|-----------|
@@ -58,7 +58,7 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 | Headroom / system buffer | 5.0 GB |
 | **Total** | **16.0 GB** |
 
-## Network Architecture
+### Network Architecture
 
 | Bridge | Network | Role |
 |--------|---------|------|
