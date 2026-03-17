@@ -6,7 +6,7 @@ For all intents and purposes, it is designed to be a breakdown of learning and e
 
 ---
 
-## 💡	Key Principle
+#### 💡	Key Principle
 I wanted to build a homelab with that I had, so at my very best I researched what was possible given my setup. It's important to note that it requires time to explore and implement new learning experiences, so take your time. The goal is not to run software — it is to know what the software is doing and why.
 
 ---
