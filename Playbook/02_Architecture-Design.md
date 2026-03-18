@@ -19,9 +19,9 @@ Proxmox creates virtual bridges (vmbr) that function as software-defined network
 
 | Bridge | Physical Anchor | Role | Who Connects |
 | :--- | :--- | :--- | :--- |
-| vmbr0 | enx[adapter] (USB-C adapter)	| WAN / Home network | Proxmox host management; OPNsense WAN (vtnet0) | 
+| vmbr0 | (USB-C adapter)	| WAN / Home network | Proxmox host management; OPNsense WAN (vtnet0) | 
 | vmbr1 | None — internal only, no bridge-ports set | 	Isolated internal lab LAN | 	OPNsense LAN (vtnet1); all future lab VMs and LXC containers | 
-| vmbr1 | 	None — internal only, no bridge-ports set | 	Isolated internal lab LAN	|  OPNsense Attack (vtnet2); all future lab VMs and LXC containers | 
+| vmbr2 | 	None — internal only, no bridge-ports set | 	Isolated internal lab LAN	|  OPNsense Attack (vtnet2); all future lab VMs and LXC containers | 
 
 #### 📘	Why vmbr1 Makes the Firewall Real
 vmbr1 has no physical bridge ports. It is a completely virtual switch that exists only inside the machine's memory. Nothing on the home Wi-Fi network can reach any device on vmbr1 directly. All traffic in or out of the lab passes through OPNsense, which sits with one interface in each bridge. This is what makes the firewall a meaningful security boundary rather than a decorative one.
