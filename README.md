@@ -72,8 +72,6 @@ In my original research and idea, I was positioned the idea of using Elasticsear
 
 I am transitioning from a decade of working in education as a teacher, digital transformationist and education technology leader into cybersecurity and AI governance. This lab is part of building the technical depth.
 
-You can find me at [LinkedIn.com] ([LinkedIn Profile])
-
 # Licence
 
 This repository is released as open-source reference material. Reproduce freely with attribution.
