@@ -74,4 +74,7 @@ I am transitioning from a decade of working in education as a teacher, digital t
 
 # Licence
 
-This repository is released as open-source reference material. Reproduce freely with attribution.
+## Licence
+
+This repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). 
+You are free to share and adapt this material with attribution.
