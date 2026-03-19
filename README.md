@@ -10,7 +10,7 @@ Project tiramisu is a documented build of a defensive security lab that I have b
 
 The name comes from the Italian dessert: it's a single device that has many layers, each with a purpose and *tirami su*. This is translated as "pick me up".
 
-The repository will contain the full technical playbook, configuration references and support material for the build. There is a compananion blog to go with the repository and that can be found at [Adam's Bytes](https://adambytes.github.io/lab.html). It walks through each phase as a narrative, including the failures and pain points.
+The repository will contain the full technical playbook, configuration references and support material for the build. There is a companion blog to go with the repository and that can be found at [Adam's Bytes](https://adambytes.github.io/lab.html). It walks through each phase as a narrative, including the failures and pain points.
 
 ## What this project is
 
